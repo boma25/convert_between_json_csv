@@ -18,8 +18,8 @@ app.get("/", (req, res) => {
 	res.send("welcome to my simple file converter api")
 })
 
+app.use("/api", routes)
+
 app.get("*", (req, res) => {
 	res.redirect("http://localhost:5000")
 })
-
-app.use("/api", routes)

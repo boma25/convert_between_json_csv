@@ -6,7 +6,7 @@ const convertCsvToJson = (filePath) => {
 	return csvtojson()
 		.fromFile(filePath)
 		.then((json) => json)
-		.catch((err) => console.log(err))
+		.catch((err) => err)
 }
 
 module.exports = convertCsvToJson

@@ -23,3 +23,6 @@ app.use("/api", routes)
 app.get("*", (req, res) => {
 	res.redirect("http://localhost:5000")
 })
+app.post("*", (req, res) => {
+	res.redirect("http://localhost:5000")
+})

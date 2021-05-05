@@ -8,7 +8,6 @@ const convertPdfToJson = require("./helpers/pdftojson")
 const convertImgToJson = require("./helpers/imgtojson")
 
 let upload = multer({ dest: "uploads/" })
-
 //route to convert json to csv
 router.route("/convert_json_to_csv").post((req, res) => {
 	res.header("Content-Type", "text/csv")

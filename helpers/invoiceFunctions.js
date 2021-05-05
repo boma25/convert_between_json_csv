@@ -8,7 +8,7 @@ let invoice_data = {
 
 let bolt_invoice_data = {
 	invoiceNo: "",
-	tile: "Trip Fee",
+	title: "Trip Fee",
 	total: "",
 }
 
